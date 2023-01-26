@@ -6,6 +6,7 @@ Prerequisites
 
     Docker
     Docker Compose
+    Jupyter Notebook
 
 Usage
 
