@@ -40,7 +40,7 @@ Volumes
 
 This docker-compose.yml file also defines the following volumes:
 
-    dtc_postgres_volume_local: This volume is used by the service1 to persist data.
+    dtc_postgres_volume_local: This volume is used by the pg-database to persist data.
 
 You can add more volumes to the docker-compose.yml file as per your need.
 - The file [upload-data-green-taxi.ipynb](upload-data-green-taxi.ipynb) is a jupyter script responsible to ingest green taxi data downloaded from https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-01.csv.gz into a local Postgres instance.
