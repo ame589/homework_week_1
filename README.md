@@ -59,14 +59,15 @@ Exercises solutions:
 ``` sql
 SELECT count(*)
 FROM green_taxi_data
-WHERE lpep_pickup_datetime::date = date '2019-01-15';
+WHERE lpep_pickup_datetime::date = date '2019-01-15' AND lpep_dropoff_datetime::date = date '2019-01-15';
 ```
 ## Query n.4
 
 ``` sql
 SELECT lpep_pickup_datetime::date, trip_distance
 FROM green_taxi_data
-ORDER BY trip_distance DESC;
+ORDER BY trip_distance DESC
+LIMIT 1;
 ```
 ## Query n.5
 
